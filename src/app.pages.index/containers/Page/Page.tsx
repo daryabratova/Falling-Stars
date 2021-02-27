@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "next/head";
 
+import * as Styles from "./Page.styles";
+
 export const Page: React.FC = () => {
   return (
     <>
@@ -9,7 +11,7 @@ export const Page: React.FC = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>Falling Stars</h1>
+        <Styles.Heading>Falling Stars</Styles.Heading>
       </main>
     </>
   );
