@@ -3,9 +3,14 @@ import { State } from "./reducer";
 
 export const getRootState: (state: State) => State = (state) => state;
 
-export const getIsActive = createSelector(
+export const getIsRunning = createSelector(
   getRootState,
-  (state) => state.isActive
+  (state) => state.isRunning
+);
+
+export const getIsPaused = createSelector(
+  getRootState,
+  (state) => state.isPaused
 );
 
 export const getScore = createSelector(getRootState, (state) => state.score);

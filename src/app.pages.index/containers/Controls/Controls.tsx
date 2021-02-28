@@ -2,16 +2,16 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 
 import { actions } from "../../../redux/actions";
-import { getIsActive } from "../../../redux/selectors";
+import { getIsRunning } from "../../../redux/selectors";
 
 import * as Styles from "./Controls.styles";
 
 export const Controls: React.FC = () => {
-  const isActive = useSelector(getIsActive);
+  const isRunning = useSelector(getIsRunning);
   const dispatch = useDispatch();
 
   const renderPlayPauseButton = () => {
-    if (isActive) {
+    if (isRunning) {
       const handlePause = () => {
         dispatch(actions.pause());
       };
@@ -28,7 +28,7 @@ export const Controls: React.FC = () => {
 
   const handleRestart = () => {
     dispatch(actions.restart());
-  }
+  };
 
   return (
     <Styles.Layout>
