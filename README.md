@@ -24,12 +24,13 @@ This is my game project, where you can count star values, while stars are fallin
 
 ## Start the app
 
-To get started, just clone the repository and run yarn install && yarn dev:
+To get started, just clone the repository, cd to cloned directory and run yarn build && yarn start:
 
 ```
 git clone https://github.com/livelife26/Falling-Stars
-yarn install
-yarn dev
+cd Falling-Stars
+yarn build
+yarn start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
