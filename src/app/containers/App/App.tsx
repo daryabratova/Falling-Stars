@@ -13,7 +13,7 @@ export const App: React.FC<AppProps> = (props) => {
 
   return (
     <Provider store={store}>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </Provider>
   );
 };

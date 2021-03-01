@@ -40,12 +40,12 @@ export const reducer = createReducer<State, Actions>(initialState)
       time: 0,
     };
   })
-  .handleAction(actions.setScore, (state, action) => {
+  .handleAction(actions.addScore, (state, action) => {
     const { payload } = action;
 
     return {
       ...state,
-      score: payload,
+      score: state.score + payload,
     };
   })
   .handleAction(actions.setTime, (state, action) => {

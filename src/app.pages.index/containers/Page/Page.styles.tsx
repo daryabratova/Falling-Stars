@@ -5,11 +5,11 @@ export const Main = styled.main`
   display: grid;
   place-items: center;
   height: 100vh;
-  background: linear-gradient(to right, #318ba1,  #010910);
+  background: linear-gradient(to right, #318ba1, #010910);
   font-family: Roboto;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500;
-  color: #fff;
+  color: #EBEBEC;
 `;
 
 export const Playground = styled.div`
@@ -20,4 +20,3 @@ export const Playground = styled.div`
   background-repeat: no-repeat;
   background-position: center;
 `;
-
