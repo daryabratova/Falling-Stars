@@ -4,7 +4,7 @@ Simple game with counting star values.
 
 ## General Info
 
-This is my project game, where you can count star values, while stars are falling down and the game is on. The project was made with [Next.js](https://nextjs.org/) framework and [anime.js](https://animejs.com/) library.
+This is my game project, where you can count star values, while stars are falling down and the game is on. The project was made with TypeScript, [Next.js](https://nextjs.org/) framework and [anime.js](https://animejs.com/) library.
 
 ## Features
 
@@ -18,9 +18,9 @@ This is my project game, where you can count star values, while stars are fallin
 - **React**
 - **Redux**
 - **Next.js**
+- **Emotion**
 - **anime.js**
 - **EasyTimer.js**
-- **Styled-components**
 
 ## Start the app
 
